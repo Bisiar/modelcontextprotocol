@@ -15,7 +15,7 @@ Currently, MCP requires all binary data to be base64-encoded within JSON-RPC mes
 
 ### Real-World Example
 
-When using an MCP server for screenshot capture (e.g., Snagit integration), images must often be resized from their original dimensions down to 800x800 pixels or smaller to fit within context limits after base64 encoding. This significantly reduces the utility of screenshot sharing for detailed UI work or documentation.
+When using an MCP server for screenshot capture (e.g., [Snagit integration](https://github.com/Bisiar/mcp-snagit)), images must often be resized from their original dimensions down to 800x800 pixels or smaller to fit within context limits after base64 encoding. This significantly reduces the utility of screenshot sharing for detailed UI work or documentation.
 
 ## Proposed Solution
 
@@ -205,3 +205,4 @@ Different transports may implement binary transfer differently:
 - [MCP Specification](https://github.com/modelcontextprotocol/specification)
 - [Base64 Overhead Analysis](https://en.wikipedia.org/wiki/Base64#Output_padding)
 - [WebSocket Binary Frame Protocol](https://datatracker.ietf.org/doc/html/rfc6455#section-5.2)
+- [MCP Snagit Server Implementation](https://github.com/Bisiar/mcp-snagit) - Real-world example demonstrating the need for binary transfer

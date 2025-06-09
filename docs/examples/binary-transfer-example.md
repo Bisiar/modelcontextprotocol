@@ -2,6 +2,8 @@
 
 This example demonstrates how an MCP server for Snagit screen captures would benefit from binary transfer support.
 
+**Reference Implementation**: [github.com/Bisiar/mcp-snagit](https://github.com/Bisiar/mcp-snagit)
+
 ## Current Implementation (Base64)
 
 When capturing a 4K screenshot (3840x2160), the current base64 approach has significant limitations:
